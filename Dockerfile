@@ -13,4 +13,5 @@ RUN apt-get update && apt-get install -y \
 USER astro
 RUN python -m venv soda_venv && source soda_venv/bin/activate && \
     pip install --no-cache-dir soda-core-bigquery==3.5.2 &&\
+    pip install --no-cache-dir setuptools &&\
     pip install --no-cache-dir soda-core-scientific==3.5.2 && deactivate
