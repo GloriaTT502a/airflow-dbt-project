@@ -33,7 +33,7 @@ RUN python -m venv /usr/local/airflow/dbt_venv && \
     pip install --no-cache-dir -i https://pip.astronomer.io/v2/ dbt-core==1.8.2 &&\
     pip install --no-cache-dir -i https://pip.astronomer.io/v2/ dbt-bigquery==1.8.2 &&\ 
     pip install --no-cache-dir -i https://pip.astronomer.io/v2/ dbt-adapters==1.2.1 &&\
-    pip install --no-cache-dir -i https://pip.astronomer.io/v2/ "dbt-common>=1.0.0,<1.22.0" &&\
+    pip install --no-cache-dir -i https://pip.astronomer.io/v2/ dbt-common>=1.1.1 &&\
     pip install --no-cache-dir -i https://pip.astronomer.io/v2/ "astronomer-cosmos[dbt-bigquery]==1.0.3" &&\
     pip install --no-cache-dir -i https://pip.astronomer.io/v2/ setuptools &&\
     pip install --no-cache-dir -i https://pip.astronomer.io/v2/ google-cloud-bigquery==3.26.0 &&\
