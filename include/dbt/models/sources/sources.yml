@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: retail
+    database: esoteric-realm-448604-v0 # Put the project id!
+
+    tables:
+      - name: raw_invoices
+      - name: country
